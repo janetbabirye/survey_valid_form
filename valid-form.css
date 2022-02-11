@@ -1,0 +1,43 @@
+.container{
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    padding: 15px;
+    background-color: brown;
+}
+body{
+    text-align: center;
+    padding: 2px;
+    margin: 0px;
+    font-size: 16px;
+}
+form{
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.row{
+    display: block;
+    padding-bottom: 6px;
+}
+.label-tab{
+    display: inline-block;
+    width: 44%;
+    text-align: right;
+    vertical-align: top;
+}
+.input-tab{
+    display: inline-block;
+    width: 54%;
+    text-align: left;
+}
+.select-tab{
+    display: inline-block;
+    width: 54%;
+    text-align: left;
+}
+.select-box{
+    padding: 5px 0px;
+}

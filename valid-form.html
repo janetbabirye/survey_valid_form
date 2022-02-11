@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link href="valid-form.css" rel="stylesheet" type="text/css">
+    <script src="valid-form.js"></script>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div>
+                <p><b>Let us know the nature of job you like</b></p>
+            </div>
+            <form name="survey" onsubmit="return validate()" method="post">
+                <div class="row">
+                    <div class="label-tab">
+                        <label>FULL NAME:</label>
+                    </div>
+                    <div class="input-tab">
+                        <input type="text" name="name" id="name" placeholder="Your full name" >
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="label-tab">
+                        <label>E-mail:</label>
+                    </div>
+                    <div class="input-tab">
+                        <input type="email" name="email" id="email"placeholder="Your email address" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="label-tab">
+                        <label>AGE:</label>
+                    </div>
+                    <div class="input-tab">
+                        <input type="number" name="Age" id="age" required placeholder="Your age">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="label-tab">
+                        <label>LOCATION:</label>
+                    </div>
+                    <div class="input-tab">
+                        <input type="text" name="location" id="location" required placeholder="Your location">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="label-tab">
+                        <label>Which department have you ever worked in / specialised in?</label>
+                    </div>
+                    <div class="select-tab" >
+                        <select id="select-box">
+                            <option value="Computer Software">Computer Software</option>
+                            <option value="Computer Hardware">Computer Hardware</option>
+                            <option value="Business Computing">Business Computing</option>
+                            <option value="Entrepreneurship">Entrepreneurship</option>
+                            <option value="Education">Education</option>
+                            <option value="NONE of the ABOVE">NONE of the ABOVE</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="label-tab">
+                        <label>your hobbies or interests</label>
+                    </div>
+                    <div class="select-tab">
+                        <div>
+                            <input type="radio">Swimming
+                        </div>
+                        <div>
+                            <input type="radio">Adventure
+                        </div>
+                        <div>
+                            <input type="radio">Reading Novels, Books
+                        </div>
+                        <div>
+                            <input type="radio">Music
+                        </div>
+                        <div>
+                            <input type="radio">Team work
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="label-tab">
+                        <label>Gender</label>
+                    </div>
+                    <div class="input-tab">
+                        <div><input type="checkbox" name="Male">Male</div>
+                        <div><input type="checkbox" name="Female">Female</div>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="send">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
